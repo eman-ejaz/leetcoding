@@ -25,6 +25,30 @@ def reverseVowels(s: str) -> str:
 
 
 def reverseVowelsOpt(s: str):
+    a = 0
+    b = len(s) - 1
+
+    sList = list(s)
+
+    vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
+
+    while a < b:
+        if sList[a] in vowels and sList[b] in vowels:
+            sList[a], sList[b] = sList[b], sList[a]
+
+            a += 1
+            b -= 1
+
+        elif sList[a] not in vowels:
+            a += 1
+
+        elif sList[b] not in vowels:
+            b -= 1
+
+    return ''.join(sList)
+
+
+def reverseVowels2(s: str) -> str:
     # Convert the string to a list to allow modification.
     chars = list(s)
     # Define a set of vowels for O(1) lookup time.
@@ -47,6 +71,10 @@ def reverseVowelsOpt(s: str):
 
     # Convert the list back to a string and return it.
     return ''.join(chars)
+
+# Example usage
+print(reverseVowels("hello"))  # Should print "holle"
+print(reverseVowels("leetcode"))  # Should print "leotcede"
 
 
 print(reverseVowelsOpt('DesignGUrus'))
