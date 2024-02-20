@@ -13,4 +13,13 @@ def contains_duplicate_brute_force(nums):
     return False
 
 
-print(contains_duplicate_brute_force([1, 2, 3, 1]))
+def contains_duplicate_brute_force2(nums):
+    s = set()
+
+    for num in nums:
+        s.add(num)
+
+    return len(s) != len(nums)
+
+
+print(contains_duplicate_brute_force2([1, 2, 3, 4]))
