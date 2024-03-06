@@ -10,4 +10,4 @@ def remove(arr):
     return l
 
 
-print(remove([2, 3, 3, 3, 6, 9, 9]))
+print(remove([1, 1, 2, 3, 3, 5, 5, 6]))
