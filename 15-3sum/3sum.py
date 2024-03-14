@@ -19,8 +19,8 @@ class Solution:
                     left += 1
                     right -= 1
 
-                    # while left < right and nums[left] == nums[left - 1]:
-                    #     left += 1
+                    while left < right and nums[left] == nums[left - 1]:
+                        left += 1
                     while right > left and nums[right] == nums[right + 1]:
                         right -= 1
 
