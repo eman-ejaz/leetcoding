@@ -9,12 +9,25 @@ class Solution:
 
         # return l
 
-        next_unique = 1
+        # next_unique = 1
 
-        for i in range(1, len(arr)):
-            if arr[i] != arr[i - 1]:
-                arr[next_unique] = arr[i]
-                next_unique += 1
+        # for i in range(1, len(arr)):
+        #     if arr[i] != arr[i - 1]:
+        #         arr[next_unique] = arr[i]
+        #         next_unique += 1
 
-        return next_unique
+        # return next_unique
         
+
+        a, b = 0, 1
+
+
+        while b < len(arr):
+            if arr[b] != arr[b -1]:
+                arr[a + 1] = arr[b]
+                a += 1
+            
+            b += 1
+
+        return a + 1
+
