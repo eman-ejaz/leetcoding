@@ -7,14 +7,10 @@ class Solution:
         
         while b < len(nums):
             if nums[b] != 0:
-                nums[a] = nums[b]
+                nums[a], nums[b] = nums[b], nums[a]
                 a += 1
             
             b += 1
-        
-        while a < len(nums):
-            nums[a] = 0
-            a += 1
-        
+  
         return nums
         
