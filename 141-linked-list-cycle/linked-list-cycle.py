@@ -10,11 +10,11 @@ class Solution:
         node_freq = {}
 
         while temp:
+            if temp in node_freq and node_freq.get(temp) > 1:
+                return True
+            
             node_freq[temp] = node_freq.get(temp, 0) + 1
 
-            if node_freq.get(temp) > 1:
-                return True
-                
             temp = temp.next
         
         return False
