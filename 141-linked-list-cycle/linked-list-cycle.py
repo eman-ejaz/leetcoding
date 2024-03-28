@@ -6,17 +6,29 @@
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        temp = head
-        node_freq = {}
+        slow, fast = head, head
 
-        while temp:
-            if temp in node_freq and node_freq.get(temp) > 1:
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+            if slow == fast:
                 return True
-            
-            node_freq[temp] = node_freq.get(temp, 0) + 1
-
-            temp = temp.next
         
         return False
+
+        # t --> O(n), S --> O(n)
+        # temp = head
+        # node_freq = {}
+
+        # while temp:
+        #     if temp in node_freq and node_freq.get(temp) > 1:
+        #         return True
+            
+        #     node_freq[temp] = node_freq.get(temp, 0) + 1
+
+        #     temp = temp.next
+        
+        # return False
 
         
