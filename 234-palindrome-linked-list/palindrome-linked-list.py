@@ -20,43 +20,47 @@ class Solution:
 
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
 
-        arr = []
+        slow, fast = head, head
 
-        curr = head
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
 
-        while curr:
-            arr.append(curr.val)
-            curr = curr.next
-         
-        left, right = 0, len(arr) - 1
+        second_half = self.reverse_linklist(slow)
 
-        while left <= right:
-            if arr[left] != arr[right]:
+        l, r = head, second_half
+
+        while r:
+            if l.val != r.val:
                 return False
             
-            left += 1
-            right -= 1
-
-        return True
-
-        # slow, fast = head, head
-
-        # while fast and fast.next:
-        #     slow = slow.next
-        #     fast = fast.next.next
-
-        # second_half = self.reverse_linklist(slow)
-
-        # l, r = head, second_half
-
-        # while (l is not None and r is not None):
-        #     if l.val != r.val:
-        #         return False
-            
-        #     l = l.next
-        #     r = r.next
+            l = l.next
+            r = r.next
 
         
 
-        # return l is None and r is None
+        return True
+
+        # Brute Force
+
+        # arr = []
+
+        # curr = head
+
+        # while curr:
+        #     arr.append(curr.val)
+        #     curr = curr.next
+         
+        # left, right = 0, len(arr) - 1
+
+        # while left <= right:
+        #     if arr[left] != arr[right]:
+        #         return False
+            
+        #     left += 1
+        #     right -= 1
+
+        # return True
+
+        
         
