@@ -18,12 +18,9 @@ class Solution:
 
             fast_ptr = self.sum_of_squares(self.sum_of_squares(fast_ptr))
 
-            if slow_ptr == 1 and fast_ptr == 1:
+            if slow_ptr == 1 or fast_ptr == 1:
                 return True
 
             if slow_ptr == fast_ptr:
                 return False
-
-            if fast_ptr == 1:
-                return True
                 
