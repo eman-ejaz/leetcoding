@@ -30,14 +30,14 @@ class Solution:
 
         l, r = head, second_half
 
-        while l and r:
+        while r:
             if l.val != r.val:
                 return False
 
             l = l.next
             r = r.next
 
-        return r is None
+        return True
 
         # Brute Force
 
