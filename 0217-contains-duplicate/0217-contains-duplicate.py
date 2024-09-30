@@ -31,9 +31,11 @@ class Solution:
         nums_set = set()
 
         for i in range(len(nums)):
+            if nums[i] in nums_set:
+                return True
             nums_set.add(nums[i])
 
-        return len(nums_set) < len(nums)
+        return False
 
 
 
