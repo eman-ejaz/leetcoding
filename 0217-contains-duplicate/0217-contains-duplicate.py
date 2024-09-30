@@ -16,14 +16,26 @@ class Solution:
 
         # sort technique
 
-        nums.sort()
+        # nums.sort()
 
 
-        for i in range(len(nums) - 1):
-            if (nums[i] == nums[i + 1]):
-                return True
+        # for i in range(len(nums) - 1):
+        #     if (nums[i] == nums[i + 1]):
+        #         return True
 
-        return False
+        # return False
+
+
+        # hash set
+
+        nums_set = set()
+
+        for i in range(len(nums)):
+            nums_set.add(nums[i])
+
+        return len(nums_set) < len(nums)
+
+
 
 
             
