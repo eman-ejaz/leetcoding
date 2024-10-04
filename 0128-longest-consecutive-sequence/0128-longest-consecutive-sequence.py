@@ -6,14 +6,13 @@ class Solution:
 
         i = 0
         longest_sequence = float('-inf')
-        while i < len(nums):
-            if nums[i] - 1 not in numSet:
+        for num in nums:
+            if num - 1 not in numSet:
                 counter = 1
-                while (nums[i] + counter) in numSet:
+                while (num + counter) in numSet:
                     counter += 1
 
                 longest_sequence = max(longest_sequence, counter)
 
-            i += 1
 
         return longest_sequence
