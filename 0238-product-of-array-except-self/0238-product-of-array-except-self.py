@@ -45,19 +45,48 @@ class Solution:
         # O(n) time, O(1) space
 
 
+        # result = [1] * len(nums)
+
+        # prefix = 1
+
+        # for i in range(len(nums)):
+        #     result[i] = prefix
+        #     prefix *= nums[i]
+
+        # postfix = 1
+        # for i in range(len(nums) - 1, -1, -1):
+        #     result[i] *= postfix
+        #     postfix *= nums[i]
+
+        # return result
+
+            
+
+        
+
+
+
+
+
+
+
         result = [1] * len(nums)
 
-        prefix = 1
+        # traversal for prefix product
 
+        prefix = 1
         for i in range(len(nums)):
             result[i] = prefix
             prefix *= nums[i]
 
+        # second traversal for postfix product
         postfix = 1
         for i in range(len(nums) - 1, -1, -1):
             result[i] *= postfix
             postfix *= nums[i]
 
         return result
+
+
 
             
