@@ -16,7 +16,7 @@ class Solution:
         # linear time solution
         l, r = 0, len(height) - 1
 
-        max_area = float('-inf')
+        max_area = 0
 
         while l < r:
             area = (r - l) * (min(height[l], height[r]))
