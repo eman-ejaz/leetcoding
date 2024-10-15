@@ -24,9 +24,8 @@ class Solution:
         for num in nums:
             if num - 1 not in numSet:
                 seq_len = 1
-                while num + 1 in numSet:
+                while num + seq_len in numSet:
                     seq_len += 1
-                    num += 1
                 result = max(result, seq_len)
 
         return result
