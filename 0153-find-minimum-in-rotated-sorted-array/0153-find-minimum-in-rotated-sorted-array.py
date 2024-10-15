@@ -1,11 +1,20 @@
 class Solution:
     def findMin(self, nums: List[int]) -> int:
-        pivot = None
+        result = 0
 
-        for i in range(len(nums)):
-            if i < len(nums) - 1 and nums[i] > nums[i + 1]:
-                pivot = i
-                break
+        l, r = 0, len(nums) - 1
 
-        return nums[0] if pivot is None else nums[pivot + 1]
+        while l < r:
+            
+            
+            mid = l + (r - l) // 2
+
+            if nums[mid] > nums[r]:
+                l = mid + 1
+            else:
+                r = mid
+
+        return nums[l]
+
+        
             
