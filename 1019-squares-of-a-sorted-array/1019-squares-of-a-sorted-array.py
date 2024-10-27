@@ -7,7 +7,7 @@ class Solution:
         i = len(nums) - 1
 
         while l <= r:
-            if nums[l] ** 2 < nums[r] ** 2:
+            if abs(nums[l]) < abs(nums[r]):
                 res[i] = nums[r] ** 2
                 r -= 1
             else:
