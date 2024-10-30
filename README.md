@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/eman-ejaz/leetcoding/tree/master/0128-longest-consecutive-sequence) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eman-ejaz/leetcoding/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eman-ejaz/leetcoding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/eman-ejaz/leetcoding/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/eman-ejaz/leetcoding/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/eman-ejaz/leetcoding/tree/master/0347-top-k-frequent-elements) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/eman-ejaz/leetcoding/tree/master/0238-product-of-array-except-self) |
 ## Union Find
 |  |
@@ -94,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/eman-ejaz/leetcoding/tree/master/0074-search-a-2d-matrix) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eman-ejaz/leetcoding/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eman-ejaz/leetcoding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
 | [0792-binary-search](https://github.com/eman-ejaz/leetcoding/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/eman-ejaz/leetcoding/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/eman-ejaz/leetcoding/tree/master/1023-time-based-key-value-store) |
@@ -122,4 +125,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1023-time-based-key-value-store](https://github.com/eman-ejaz/leetcoding/tree/master/1023-time-based-key-value-store) |
+## Sliding Window
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
