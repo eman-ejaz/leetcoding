@@ -2,19 +2,35 @@ class Solution:
     def findMin(self, nums: List[int]) -> int:
         l, r = 0, len(nums) - 1
 
-        min_num = float('inf')
+        res = float('inf')
 
         while l <= r:
-            m = (l + r)//2
+            m = (l + r) // 2
 
-            min_num = min(min_num, nums[m])
-
-            if nums[m] > nums[r]:
+            if nums[l] <= nums[m]:
+                res = min(res, nums[l])
                 l = m + 1
             else:
+                res = min(nums[m], res)
                 r = m - 1
 
-        return min_num
+        return res
+
+        # l, r = 0, len(nums) - 1
+
+        # min_num = float('inf')
+
+        # while l <= r:
+        #     m = (l + r)//2
+
+        #     min_num = min(min_num, nums[m])
+
+        #     if nums[m] > nums[r]:
+        #         l = m + 1
+        #     else:
+        #         r = m - 1
+
+        # return min_num
 
 
 
