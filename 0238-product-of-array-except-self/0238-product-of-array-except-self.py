@@ -15,43 +15,11 @@ class Solution:
 
         for i in range(len(nums) - 1, -1, -1):
             rprod[i] = post
+            res[i] = lprod[i] * rprod[i]
 
             post *= nums[i]
 
-        
-
-        for i in range(len(nums)):
-            res[i] = lprod[i] * rprod[i]
-
         return res
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         # result_arr = [0] * len(nums)
