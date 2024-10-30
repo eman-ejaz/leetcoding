@@ -1,5 +1,59 @@
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
+        lprod = [0] * len(nums)
+        rprod = [0] * len(nums)
+        res = [0] * len(nums)
+
+        pre = 1
+        post = 1
+
+        for i in range(len(nums)):
+            lprod[i] = pre
+
+            pre *= nums[i]
+
+
+        for i in range(len(nums) - 1, -1, -1):
+            rprod[i] = post
+
+            post *= nums[i]
+
+        
+
+        for i in range(len(nums)):
+            res[i] = lprod[i] * rprod[i]
+
+        return res
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         # result_arr = [0] * len(nums)
 
         # for i in range(len(nums)):
