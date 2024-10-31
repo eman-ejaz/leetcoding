@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/eman-ejaz/leetcoding/tree/master/0347-top-k-frequent-elements) |
 | [0792-binary-search](https://github.com/eman-ejaz/leetcoding/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/eman-ejaz/leetcoding/tree/master/0907-koko-eating-bananas) |
+| [0940-fruit-into-baskets](https://github.com/eman-ejaz/leetcoding/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/eman-ejaz/leetcoding/tree/master/1019-squares-of-a-sorted-array) |
 ## Hash Table
 |  |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/eman-ejaz/leetcoding/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/eman-ejaz/leetcoding/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/eman-ejaz/leetcoding/tree/master/0347-top-k-frequent-elements) |
+| [0940-fruit-into-baskets](https://github.com/eman-ejaz/leetcoding/tree/master/0940-fruit-into-baskets) |
 | [1023-time-based-key-value-store](https://github.com/eman-ejaz/leetcoding/tree/master/1023-time-based-key-value-store) |
 ## Sorting
 |  |
@@ -129,4 +131,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
+| [0940-fruit-into-baskets](https://github.com/eman-ejaz/leetcoding/tree/master/0940-fruit-into-baskets) |
 <!---LeetCode Topics End-->
