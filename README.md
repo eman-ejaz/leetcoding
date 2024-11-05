@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-koko-eating-bananas](https://github.com/eman-ejaz/leetcoding/tree/master/0907-koko-eating-bananas) |
 | [0940-fruit-into-baskets](https://github.com/eman-ejaz/leetcoding/tree/master/0940-fruit-into-baskets) |
 | [1019-squares-of-a-sorted-array](https://github.com/eman-ejaz/leetcoding/tree/master/1019-squares-of-a-sorted-array) |
+| [1046-max-consecutive-ones-iii](https://github.com/eman-ejaz/leetcoding/tree/master/1046-max-consecutive-ones-iii) |
 ## Hash Table
 |  |
 | ------- |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/eman-ejaz/leetcoding/tree/master/0238-product-of-array-except-self) |
+| [1046-max-consecutive-ones-iii](https://github.com/eman-ejaz/leetcoding/tree/master/1046-max-consecutive-ones-iii) |
 ## Union Find
 |  |
 | ------- |
@@ -104,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0792-binary-search](https://github.com/eman-ejaz/leetcoding/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/eman-ejaz/leetcoding/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/eman-ejaz/leetcoding/tree/master/1023-time-based-key-value-store) |
+| [1046-max-consecutive-ones-iii](https://github.com/eman-ejaz/leetcoding/tree/master/1046-max-consecutive-ones-iii) |
 ## Greedy
 |  |
 | ------- |
@@ -135,4 +138,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/eman-ejaz/leetcoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0940-fruit-into-baskets](https://github.com/eman-ejaz/leetcoding/tree/master/0940-fruit-into-baskets) |
+| [1046-max-consecutive-ones-iii](https://github.com/eman-ejaz/leetcoding/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
