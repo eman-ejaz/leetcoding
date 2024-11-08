@@ -19,7 +19,7 @@ class Solution:
                 if matched == len(freq):
                     return True
 
-            if i - ws >= len(s1) - 1:
+            if i - ws == len(s1) - 1:
                 if s2[ws] in freq:
                     if freq[s2[ws]] == 0:
                         matched -= 1
