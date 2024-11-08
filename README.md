@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/eman-ejaz/leetcoding/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/eman-ejaz/leetcoding/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/eman-ejaz/leetcoding/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/eman-ejaz/leetcoding/tree/master/0567-permutation-in-string) |
 | [0940-fruit-into-baskets](https://github.com/eman-ejaz/leetcoding/tree/master/0940-fruit-into-baskets) |
 | [1023-time-based-key-value-store](https://github.com/eman-ejaz/leetcoding/tree/master/1023-time-based-key-value-store) |
 ## Sorting
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/eman-ejaz/leetcoding/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/eman-ejaz/leetcoding/tree/master/0242-valid-anagram) |
 | [0424-longest-repeating-character-replacement](https://github.com/eman-ejaz/leetcoding/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/eman-ejaz/leetcoding/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/eman-ejaz/leetcoding/tree/master/1023-time-based-key-value-store) |
 ## Divide and Conquer
 |  |
@@ -93,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/eman-ejaz/leetcoding/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/eman-ejaz/leetcoding/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eman-ejaz/leetcoding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0567-permutation-in-string](https://github.com/eman-ejaz/leetcoding/tree/master/0567-permutation-in-string) |
 | [1019-squares-of-a-sorted-array](https://github.com/eman-ejaz/leetcoding/tree/master/1019-squares-of-a-sorted-array) |
 ## Binary Search
 |  |
@@ -137,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/eman-ejaz/leetcoding/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/eman-ejaz/leetcoding/tree/master/0567-permutation-in-string) |
 | [0940-fruit-into-baskets](https://github.com/eman-ejaz/leetcoding/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/eman-ejaz/leetcoding/tree/master/1046-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
