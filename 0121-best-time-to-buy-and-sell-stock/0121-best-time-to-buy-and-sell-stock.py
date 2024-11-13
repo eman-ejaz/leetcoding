@@ -1,5 +1,25 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+
+        max_p = 0
+        l, r = 0, 1
+
+        while r < len(prices):
+            diff = prices[r] - prices[l]
+
+            if diff < 0:
+                l += 1
+                r += 1
+            else:
+                max_p = max(max_p, diff)
+                r += 1
+            
+            if r < len(prices) and prices[r] < prices[l]:
+                l = r
+        return max_p
+
+
+
         # max_profit = 0
 
         # i = 0
