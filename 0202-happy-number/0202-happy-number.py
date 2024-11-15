@@ -17,11 +17,13 @@ class Solution:
             s = cal_squares_sum(s)
             f = cal_squares_sum(cal_squares_sum(f))
 
-            if f == 1:
-                return True
+            # if f == 1:
+            #     return True
 
             if s == f:
-                return False
+                break
+
+        return f == 1
             
 
         
