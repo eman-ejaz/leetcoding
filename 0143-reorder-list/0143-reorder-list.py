@@ -16,7 +16,7 @@ class Solution:
             fast = fast.next.next
         
         prev = None
-
+    
         while slow:
             nxt = slow.next
 
