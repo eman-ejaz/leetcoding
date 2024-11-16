@@ -26,7 +26,7 @@ class Solution:
 
         temp = head
 
-        while prev.next and temp.next:
+        while prev.next:
             nxt1 = temp.next
             nxt2 = prev.next
 
