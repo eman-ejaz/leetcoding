@@ -2,23 +2,23 @@ class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
         freq = {}
 
-        mc = 0
-
+        mC = 0
         ws = 0
-
         res = float('-inf')
 
         for i in range(len(s)):
             freq[s[i]] = freq.get(s[i], 0) + 1
 
-            mc = max(mc, freq[s[i]])
+            mC = max(mC, freq[s[i]])
 
-            while (i - ws + 1) - mc > k:
+            while (i - ws + 1) - mC > k:
                 freq[s[ws]] -= 1
-
                 ws += 1
-
+            
             res = max(res, i - ws + 1)
+                
+
+
 
         return res
 
@@ -48,6 +48,36 @@ class Solution:
 
 
 
+
+
+
+
+
+
+
+
+
+        freq = {}
+
+        mc = 0
+
+        ws = 0
+
+        res = float('-inf')
+
+        for i in range(len(s)):
+            freq[s[i]] = freq.get(s[i], 0) + 1
+
+            mc = max(mc, freq[s[i]])
+
+            while (i - ws + 1) - mc > k:
+                freq[s[ws]] -= 1
+
+                ws += 1
+
+            res = max(res, i - ws + 1)
+
+        return res
 
 
 
