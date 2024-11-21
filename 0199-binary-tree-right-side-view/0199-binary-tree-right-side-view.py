@@ -10,8 +10,7 @@ class Solution:
         depth = 0
 
         res = []
-        if root:
-            res.append(root.val)
+
 
         while q:
             size = len(q)
@@ -19,13 +18,13 @@ class Solution:
             for i in range(size):
                 node = q.popleft()
 
-                if depth > 1 and i == size - 1 and node:
-                    res.append(node.val)
+                # if depth > 1 and i == size - 1 and node:
+                #     res.append(node.val)
 
                 if node.left:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
-
+            res.append(node.val)
         return res
         
