@@ -11,7 +11,6 @@ class Solution:
                 return False
 
             if not node.left and not node.right:
-                print(currSum, node.val)
                 return (node.val + currSum) == targetSum
 
             return findSum(node.left, currSum + node.val) or findSum(node.right, currSum + node.val)
