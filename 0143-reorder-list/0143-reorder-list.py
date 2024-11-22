@@ -9,6 +9,33 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         slow, fast = head, head
 
         while fast and fast.next:
