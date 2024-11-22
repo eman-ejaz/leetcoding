@@ -9,32 +9,34 @@ class Solution:
         Do not return anything, modify head in-place instead.
         """
 
+        slow, fast = head, head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        prev = None
+
+        while slow:
+            nxt = slow.next
+            slow.next = prev
+            prev = slow
+            slow = nxt
         
+        print('prev', prev.val)
+        temp = head
+        print('prev', prev.val)
 
+        while prev.next:
+            temp_next = temp.next
+            prev_next = prev.next
 
+            temp.next = prev
+            prev.next = temp_next
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            temp = temp_next
+            prev = prev_next
+        return
 
         slow, fast = head, head
 
