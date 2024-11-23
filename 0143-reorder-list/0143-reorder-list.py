@@ -16,6 +16,48 @@ class Solution:
             fast = fast.next.next
 
         prev = None
+        curr = slow
+        while curr:
+            nxt = curr.next
+            curr.next = prev
+            prev = curr
+            curr = nxt
+
+        temp = head
+        while prev.next:
+            nxt1 = temp.next
+            nxt2 = prev.next
+
+            temp.next = prev
+            prev.next = nxt1
+
+            temp = nxt1
+            prev = nxt2
+        return
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        slow, fast = head, head
+
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+
+        prev = None
 
         while slow:
             nxt = slow.next
