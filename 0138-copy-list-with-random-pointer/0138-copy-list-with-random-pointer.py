@@ -13,33 +13,6 @@ class Solution:
             return None
 
 
-        oldToClone = {None: None}
-        dummy = Node(0)
-
-        temp = dummy
-        curr = head
-
-        while curr:
-            temp.next = Node(curr.val)
-            oldToClone[curr] = temp.next
-
-            curr = curr.next
-            temp = temp.next
-        
-        curr = head
-        temp = dummy.next
-
-        while curr:
-            clone_random = oldToClone[curr.random]
-            temp.random = clone_random
-
-            curr = curr.next
-            temp = temp.next
-
-        return dummy.next
-
-
-
 
         dummy = Node(0)
         curr = head
