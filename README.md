@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
 | [0217-contains-duplicate](https://github.com/eman-ejaz/leetcoding/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/eman-ejaz/leetcoding/tree/master/0238-product-of-array-except-self) |
+| [0287-find-the-duplicate-number](https://github.com/eman-ejaz/leetcoding/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/eman-ejaz/leetcoding/tree/master/0347-top-k-frequent-elements) |
 | [0792-binary-search](https://github.com/eman-ejaz/leetcoding/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/eman-ejaz/leetcoding/tree/master/0907-koko-eating-bananas) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eman-ejaz/leetcoding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/eman-ejaz/leetcoding/tree/master/0202-happy-number) |
 | [0234-palindrome-linked-list](https://github.com/eman-ejaz/leetcoding/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/eman-ejaz/leetcoding/tree/master/0287-find-the-duplicate-number) |
 | [0567-permutation-in-string](https://github.com/eman-ejaz/leetcoding/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/eman-ejaz/leetcoding/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/eman-ejaz/leetcoding/tree/master/1019-squares-of-a-sorted-array) |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/eman-ejaz/leetcoding/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/eman-ejaz/leetcoding/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0209-minimum-size-subarray-sum) |
+| [0287-find-the-duplicate-number](https://github.com/eman-ejaz/leetcoding/tree/master/0287-find-the-duplicate-number) |
 | [0792-binary-search](https://github.com/eman-ejaz/leetcoding/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/eman-ejaz/leetcoding/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/eman-ejaz/leetcoding/tree/master/1023-time-based-key-value-store) |
@@ -219,4 +222,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/eman-ejaz/leetcoding/tree/master/0112-path-sum) |
 | [0199-binary-tree-right-side-view](https://github.com/eman-ejaz/leetcoding/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0543-diameter-of-binary-tree) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/eman-ejaz/leetcoding/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
