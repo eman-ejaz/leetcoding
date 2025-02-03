@@ -16,8 +16,7 @@ class Solution:
 
 
         for ch in freq1:
-            f = freq2.get(ch, 0)
-            if f == 0 or freq1[ch] != f:
+            if freq1[ch] != freq2.get(ch, 0):
                 return False
 
         # for i in range(len(s)):
