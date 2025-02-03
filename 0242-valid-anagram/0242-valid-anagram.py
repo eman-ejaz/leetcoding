@@ -14,11 +14,17 @@ class Solution:
         for ch in t:
             freq2[ch] = freq2.get(ch, 0) + 1
 
-        for i in range(len(s)):
-            ch = s[i]
 
-            if ((ch in freq1 and ch not in freq2) or (ch in freq2 and ch not in freq1) or freq1[ch] != freq2[ch]):
+        for ch in freq1:
+            f = freq2.get(ch, 0)
+            if f == 0 or freq1[ch] != f:
                 return False
+
+        # for i in range(len(s)):
+        #     ch = s[i]
+
+        #     if ((ch in freq1 and ch not in freq2) or (ch in freq2 and ch not in freq1) or freq1[ch] != freq2[ch]):
+        #         return False
 
         
         return True
