@@ -1,5 +1,64 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
+        m1 = {}
+        m2 = {}
+
+        for ch in s:
+            m1[ch] = 1 + m1.get(ch, 0)
+
+        for ch in t:
+            m2[ch] = 1 + m2.get(ch, 0)
+
+        if len(m1) != len(m2):
+            return False
+        
+        for ch in m1:
+            if ch not in m2:
+                return False
+            if m2.get(ch, 0) != m1[ch]:
+                return False
+        
+        return True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         if len(s) != len(t):
             return False
