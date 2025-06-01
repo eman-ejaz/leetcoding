@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/eman-ejaz/leetcoding/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0572-subtree-of-another-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/eman-ejaz/leetcoding/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -243,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/eman-ejaz/leetcoding/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0572-subtree-of-another-tree) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -255,4 +258,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/eman-ejaz/leetcoding/tree/master/0023-merge-k-sorted-lists) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/eman-ejaz/leetcoding/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
