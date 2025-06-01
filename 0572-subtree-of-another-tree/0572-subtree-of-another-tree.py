@@ -21,17 +21,9 @@ class Solution:
         
         def dfs(p):
             if not p:
-                return False
+                return False            
 
-            tempP = p
-            tempQ = subRoot
-
-            res = sameTree(tempP, tempQ)
-
-            if res:
-                return True
-
-            return dfs(p.left) or dfs(p.right)
+            return sameTree(p, subRoot) or dfs(p.left) or dfs(p.right)
 
         
         return dfs(root)
